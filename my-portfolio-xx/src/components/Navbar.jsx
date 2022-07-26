@@ -37,7 +37,7 @@ const Navbar = () => {
             </ul>
 
             {/*Icons for social apps*/}
-            <div className='flex fixed flex-col top-[40%] left-0'>
+            <div className='hidden lg:flex flexed fixed flex-col top-[40%] left-0'>
                 <ul>
                     <li className='h-[50px] w-[150px] flex justify-between items-center ml-[-90px] hover:ml-[-15px] duration-350 bg-sky-600'>
                         <a className='flex justify-between items-center w-full text-slate-400'
